@@ -1,0 +1,57 @@
+body {
+    background-color: lightgray;
+    font-size: 20px;                 /* text més gran */
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Verdana;
+}
+
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: "Courier New";
+    border-bottom: 1px solid white;
+}
+
+
+p {
+    margin-left: 50px;
+}
+
+
+.etiqueta {
+    color: blue;
+    font-family: Arial;
+    font-weight: bold;
+    display: inline-block;          
+    width: 250px;
+}
+
+
+.formula {
+    background-color: black;
+    color: white;
+    font-family: Tahoma;
+}
+
+
+.part {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: Verdana;
+    display: inline-block;
+    width: 120px;
+}
+
+
+code {
+    background-color: yellow;
+    border: 1px solid black;
+    font-family: "Times New Roman";
+}

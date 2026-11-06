@@ -1,0 +1,105 @@
+/* ---- Pàgina ---- */
+body {
+    background-color: #3f3f46;
+    font-family: Arial;
+    color: white;
+    padding: 20px 5%;
+}
+
+/* ---- Títol i menú: caixes negres ---- */
+header, nav {
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+header {
+    border: 2px solid red;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+/* ---- Menú (borde blau) ---- */
+nav {
+    border: 2px solid blue;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* ---- Enllaços del menú ---- */
+nav a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 18%;
+    padding: 8px 0;
+}
+
+/* ---- Hover: només enllaços amb href ---- */
+nav a:hover {
+    background-color: red;
+}
+
+/* ---- Enllaç actiu (versió 2): fons blau, sense hover ---- */
+nav a.actiu {
+    background-color: blue;
+}
+
+/* ---- Seccions ---- */
+section {
+    background-color: black;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px solid red;
+}
+
+/* imparells = vermell */
+section:nth-child(odd) {
+    border-color: red;
+}
+
+/* parells = blau */
+section:nth-child(even) {
+    border-color: blue;
+}
+
+/* ---- Llista d'informació ---- */
+.info {
+    background-color: #1f2937;
+    list-style-type: none;
+    padding: 10px;
+}
+
+/* ---- Botó Wikipedia (normal) ---- */
+.wiki {
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    display: inline-block;
+    padding: 8px 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* ---- Botó Wikipedia (hover) ---- */
+.wiki:hover {
+    background-color: white;
+    color: red;
+}
+
+/* ---- Enllaç tornar inici (normal) ---- */
+.inici {
+    display: block;
+    border-top: 1px solid lightgray;
+    margin-top: 25px;
+    padding: 15px;
+    color: lightblue;
+    text-decoration: none;
+}
+
+/* ---- Hover: ombra blanca ---- */
+.inici:hover {
+    box-shadow: 0 0 8px 2px white;
+}
